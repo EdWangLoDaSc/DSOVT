@@ -65,8 +65,19 @@ def main():
     X_ki, y_ki = generate_data(f, sen_num_kind_list, sen_num_var_list)
     np.save(f'{output_dir}x_NOAA_test.npy', X_ki)
     np.save(f'{output_dir}y_NOAA_test.npy', y_ki)
-
+    
     f.close()
+    x_train = np.load(f'{output_dir}/x_NOAA_train.npy',mmap_mode = 'r')
+    y_train = np.load(f'{output_dir}/y_NOAA_train.npy',mmap_mode = 'r')
+    x_test = np.load(f'{output_dir}/x_NOAA_test.npy',mmap_mode = 'r')
+    y_test = np.load(f'{output_dir}/y_NOAA_test.npy',mmap_mode = 'r')
+
+
+    x_data = np.vstack([x_train,x_test])
+
+    y_data = np.vstack([y_train,y_test])
+    np.save(f'{output_dir}/x_NOAA.npy',x_data)
+    np.save(f'{output_dir}/y_NOAA.npy',y_data)
 
 if __name__ == '__main__':
     main()
