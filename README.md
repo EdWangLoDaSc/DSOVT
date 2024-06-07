@@ -8,7 +8,7 @@ This script processes sea surface temperature (SST) data to generate training an
 Execute the script via command line as follows:
 
 ```bash
-python NOAA_data_generation.py <output_dir>
+python ./NOAA/NOAA_data_generation.py <output_dir>
 ```
 Replace <output_dir> with the path to your desired output directory.
 
