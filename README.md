@@ -6,7 +6,7 @@ The DSOVT framework introduces an innovative approach to the spatio-temporal pre
 ## Numerical Experiments — NOAA Sea Surface Temperature
 ### NOAA Sea Surface Temperature Data Processing
 
-This script processes sea surface temperature (SST) data to generate training and testing datasets. It reads SST data from a `.mat` file, interpolates missing values, and uses sparse sampling based on sensor configurations.
+This script processes sea surface temperature (SST) data to generate training and testing datasets. It reads SST data from a `.mat` file (available at: [Google Drive Link](https://drive.google.com/drive/folders/1pVW4epkeHkT2WHZB7Dym5IURcfOP4cXu)), interpolates missing values, and uses sparse sampling based on sensor configurations.
 
 #### Usage
 Execute via command line:
