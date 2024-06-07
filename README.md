@@ -2,7 +2,6 @@
 
 ## Overview
 The DSOVT framework introduces an innovative approach to the spatio-temporal prediction of dynamical systems with sparse observations. Utilizing Voronoi tessellation, the framework integrates advanced deep learning models such as Convolutional Encoder-Decoder combined with Long Short-Term Memory (CED-LSTM) and Convolutional Long Short-Term Memory (ConvLSTM) to address nonlinear dynamic prediction challenges. By embedding physics constraints within these models, DSOVT achieves high accuracy and robust rolling forecasts, surpassing traditional Kriging-based methods in both computational efficiency and predictive performance.
-![Physics-Constrained CED-LSTM Pipeline](Pipeline_Phy_CEDLSTM.png "Physics-Constrained CED-LSTM Model Pipeline")
 
 ## Numerical Experiments — NOAA Sea Surface Temperature
 ### NOAA Sea Surface Temperature Data Processing
@@ -56,18 +55,16 @@ You can download the pre-trained models from the following link:
 These parameters include trained weights and configuration settings for both the CED-LSTM and ConvLSTM models. Utilizing these pre-trained models can significantly reduce the initialization time and computational resources required for model training and provide a robust baseline for enhancing predictive performance in dynamical system applications.
 
 
-5. 
 ## Dependencies
-The script requires the following dependencies:
-- Python 3.7
-- NumPy
-- Pandas
-- SciPy
-- h5py
-- tqdm
-- pykrige
-- skimage
-- matplotlib
-Ensure all dependencies are installed using pip:
+
+To ensure the smooth running of the scripts and notebooks in this repository, you need to install the required Python packages. These dependencies are listed in the `requirements.txt` file.
+
+### Installing Dependencies
+
+To install the required packages, you can use the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
+```
 
 
