@@ -1,7 +1,7 @@
 # Dynamical System Prediction from Sparse Observations Using Deep Neural Networks with Voronoi Tessellation and Physics Constraints (DSOVT)
 
 ## Overview
-The DSOVT framework introduces an innovative approach to the spatio-temporal prediction of dynamical systems with sparse observations. Utilizing Voronoi tessellation, the framework integrates advanced deep learning models such as Convolutional Encoder-Decoder combined with Long Short-Term Memory (CED-LSTM) and Convolutional Long Short-Term Memory (ConvLSTM) to address nonlinear dynamic prediction challenges. By embedding physics constraints within these models, DSOVT achieves high accuracy and robust rolling forecasts, surpassing traditional Kriging-based methods in both computational efficiency and predictive performance.
+The DSOVT framework introduces an innovative approach to the spatio-temporal prediction of dynamical systems with sparse observations. Utilizing Voronoi tessellation, the framework integrates advanced deep learning models such as Convolutional Encoder-Decoder combined with Long Short-Term Memory (CED-LSTM) and Convolutional Long Short-Term Memory (ConvLSTM) to address nonlinear dynamic prediction challenges. Meantime, by embedding physics constraints within these models, DSOVT achieves high accuracy and robust rolling forecasts, surpassing basic models in both computational efficiency and predictive performance.
 
 ## Numerical Experiments — NOAA Sea Surface Temperature
 ### NOAA Sea Surface Temperature Data Processing
