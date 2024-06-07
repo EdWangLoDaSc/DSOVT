@@ -1,0 +1,15 @@
+# Specify the Python version
+python==3.7
+
+# List of required packages
+numpy
+pandas
+scipy
+h5py
+tqdm
+pykrige
+scikit-image
+matplotlib
+tensorflow
+keras
+scikit-learn
