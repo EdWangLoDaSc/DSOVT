@@ -2,7 +2,7 @@
 
 ## Overview
 The DSOVT framework introduces an innovative approach to the spatio-temporal prediction of dynamical systems with sparse observations. Utilizing Voronoi tessellation, the framework integrates advanced deep learning models such as Convolutional Encoder-Decoder combined with Long Short-Term Memory (CED-LSTM) and Convolutional Long Short-Term Memory (ConvLSTM) to address nonlinear dynamic prediction challenges. By embedding physics constraints within these models, DSOVT achieves high accuracy and robust rolling forecasts, surpassing traditional Kriging-based methods in both computational efficiency and predictive performance.
-![Overview of Physics-Constrained CED-LSTM](https://drive.google.com/uc?export=view&id=1fuOONL1qO4XysjQRjqmqPpkGqFex8XSb)
+![Physics-Constrained CED-LSTM Pipeline](pipeline_cedlstm.png "Physics-Constrained CED-LSTM Model Pipeline")
 
 ## Numerical Experiments — NOAA Sea Surface Temperature
 ### NOAA Sea Surface Temperature Data Processing
