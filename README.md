@@ -39,6 +39,4 @@ The script requires the following dependencies:
 - matplotlib
 Ensure all dependencies are installed using pip:
 
-```bash
-pip install numpy pandas scipy h5py tqdm
 
